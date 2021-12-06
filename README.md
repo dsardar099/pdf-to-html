@@ -1,4 +1,7 @@
-# pdftohtml - pdf2htmlEx shell wrapper for Node.js
+# pdf-to-html - pdf2htmlEx shell wrapper for Node.js
+## This is a customized package with more functionality inherited from https://github.com/alanhk89/pdftohtml
+
+## Thanks to [@alanhk89](https://github.com/alanh)
 
 pdftohtml provides access to [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) via shell in node.js programs.
 

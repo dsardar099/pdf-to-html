@@ -1,7 +1,7 @@
 {
-  "name": "pdftohtml",
-  "version": "0.2.0",
-  "url": "https://github.com/alanhk89/pdftohtml/issues",
+  "name": "pdf-to-html",
+  "version": "0.1.0",
+  "url": "https://github.com/dsardar099/pdf-to-html/issues",
   "description": "PDF to HTML (pdf2htmlex) shell wrapper",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alanhk89/pdftohtml.git"
+    "url": "https://github.com/dsardar099/pdf-to-html.git"
   },
   "bin": {
     "pdftohtml": "./bin/cli.js"
@@ -26,6 +26,6 @@
     "html5",
     "converter"
   ],
-  "author": "Alan Cheung",
+  "author": "Dwaipayan Sardar",
   "license": "ISC"
 }
