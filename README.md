@@ -29,7 +29,7 @@ yarn add pdftohtml
 ## Usage
 
 ```javascript
-var pdftohtml = require("pdftohtml");
+var pdftohtml = require("@dsardar099/pdf-to-html");
 var converter = new pdftohtml("test/pdfs/sample.pdf", "sample.html");
 
 // See presets (ipad, default)
