@@ -60,7 +60,7 @@ converter
 // If you would like to enable enableContentEditable of the converted html output,
 // just call converter.enableContentEditable()
 converter
-  .convert("zoom2")
+  .convert()
   .then(function () {
     converter.enableContentEditable();
     console.log("Success");
