@@ -1,4 +1,5 @@
 # pdf-to-html - pdf2htmlEx shell wrapper for Node.js
+
 ## This is a customized package with more functionality inherited from https://github.com/alanhk89/pdftohtml
 
 ## Thanks to [@alanhk89](https://github.com/alanh)
@@ -37,10 +38,10 @@ var converter = new pdftohtml("test/pdfs/sample.pdf", "sample.html");
 // convert() returns promise
 converter
   .convert("ipad")
-  .then(function() {
+  .then(function () {
     console.log("Success");
   })
-  .catch(function(err) {
+  .catch(function (err) {
     console.error("Conversion error: " + err);
   });
 
@@ -48,17 +49,29 @@ converter
 // just call converter.disablePrinting()
 converter
   .convert()
-  .then(function() {
+  .then(function () {
     converter.disablePrinting();
     console.log("Success");
   })
-  .catch(function(err) {
+  .catch(function (err) {
+    console.error("Conversion error: " + err);
+  });
+
+// If you would like to enable enableContentEditable of the converted html output,
+// just call converter.enableContentEditable()
+converter
+  .convert("zoom2")
+  .then(function () {
+    converter.enableContentEditable();
+    console.log("Success");
+  })
+  .catch(function (err) {
     console.error("Conversion error: " + err);
   });
 
 // If you would like to tap into progress then create
 // progress handler
-converter.progress(function(ret) {
+converter.progress(function (ret) {
   console.log((ret.current * 100.0) / ret.total + " %");
 });
 ```
