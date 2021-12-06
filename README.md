@@ -10,6 +10,17 @@ pdftohtml provides access to [pdf2htmlEX](https://github.com/coolwanglu/pdf2html
 
 - [pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX)
 
+## Quick Setup
+1. Create a directory for you node js app
+2. Do `` npm init -y ``
+2. crate app.js in that directory
+3. Download https://drive.google.com/drive/folders/10ar12wziNA76tGf0KaSLV_DCcljX8ORs?usp=sharing
+4. Extract the downloaded zip file and copy **pdf2htmlEX.exe** and **data** folder. Paste those 2 thing to your node js app directory.
+5. Do `` npm i @dsardar099/pdf-to-html ``
+6. You are ready to go for writing code to convert PDF files to HTML files.
+
+**See documentation example for more information.**
+
 If you've docker env setup, just install it via docker
 
 ```
