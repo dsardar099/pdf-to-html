@@ -23,7 +23,13 @@ alias pdf2htmlEX="docker run -ti --rm -v ~/pdf:/pdf iapain/pdf2htmlex pdf2htmlEX
 via yarn:
 
 ```
-yarn add pdftohtml
+yarn add @dsardar099/pdf-to-html
+```
+
+via npm:
+
+```
+npm install @dsardar099/pdf-to-html
 ```
 
 ## Usage
