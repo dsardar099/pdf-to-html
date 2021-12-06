@@ -85,17 +85,17 @@ converter.progress(function (ret) {
 ## Command line usage
 
 ```
-yarn global add pdftohtml
+yarn global add @dsardar099/pdf-to-html
 ```
 
 ```
-pdftohtml sample.pdf
+@dsardar099/pdf-to-html sample.pdf
 ```
 
 You may optionally provide your own filename and preset
 
 ```
-pdftohtml sample.pdf sample.html ipad
+@dsardar099/pdf-to-html sample.pdf sample.html ipad
 ```
 
 ## Tests
